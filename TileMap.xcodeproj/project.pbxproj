@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1813E81B5C1ACD008691EE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1813E71B5C1ACD008691EE /* SwiftyJSON.swift */; };
+		BB6525851B5438D0000201C2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6525841B5438D0000201C2 /* libz.dylib */; };
 		BB761FD81B45D12400425283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB761FD71B45D12400425283 /* AppDelegate.swift */; };
 		BB761FDA1B45D12400425283 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB761FD91B45D12400425283 /* GameScene.sks */; };
 		BB761FDC1B45D12400425283 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB761FDB1B45D12400425283 /* GameScene.swift */; };
@@ -15,6 +17,11 @@
 		BB761FE31B45D12400425283 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB761FE21B45D12400425283 /* Images.xcassets */; };
 		BB761FE61B45D12400425283 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB761FE41B45D12400425283 /* LaunchScreen.xib */; };
 		BB761FF21B45D12500425283 /* TileMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB761FF11B45D12500425283 /* TileMapTests.swift */; };
+		BB7620001B45D31400425283 /* tilemap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = BB761FFC1B45D31400425283 /* tilemap.tmx */; };
+		BB7620011B45D31400425283 /* tmx-bg-tiles.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB761FFE1B45D31400425283 /* tmx-bg-tiles.1.png */; };
+		BB7620021B45D31400425283 /* tmx-bg-tiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB761FFF1B45D31400425283 /* tmx-bg-tiles.plist */; };
+		BB97DF3F1B59D40E00B1C55E /* XXTileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97DF3E1B59D40E00B1C55E /* XXTileMap.swift */; };
+		BB97DF411B59D4EC00B1C55E /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = BB97DF401B59D4EC00B1C55E /* map.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1813E71B5C1ACD008691EE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BB6525841B5438D0000201C2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BB761FD21B45D12400425283 /* TileMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB761FD61B45D12400425283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB761FD71B45D12400425283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,11 @@
 		BB761FEB1B45D12500425283 /* TileMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TileMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB761FF01B45D12500425283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB761FF11B45D12500425283 /* TileMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMapTests.swift; sourceTree = "<group>"; };
+		BB761FFC1B45D31400425283 /* tilemap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tilemap.tmx; sourceTree = "<group>"; };
+		BB761FFE1B45D31400425283 /* tmx-bg-tiles.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmx-bg-tiles.1.png"; sourceTree = "<group>"; };
+		BB761FFF1B45D31400425283 /* tmx-bg-tiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tmx-bg-tiles.plist"; sourceTree = "<group>"; };
+		BB97DF3E1B59D40E00B1C55E /* XXTileMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XXTileMap.swift; sourceTree = "<group>"; };
+		BB97DF401B59D4EC00B1C55E /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6525851B5438D0000201C2 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		BB761FC91B45D12400425283 = {
 			isa = PBXGroup;
 			children = (
+				BB6525841B5438D0000201C2 /* libz.dylib */,
 				BB761FD41B45D12400425283 /* TileMap */,
 				BB761FEE1B45D12500425283 /* TileMapTests */,
 				BB761FD31B45D12400425283 /* Products */,
@@ -81,10 +97,13 @@
 		BB761FD41B45D12400425283 /* TileMap */ = {
 			isa = PBXGroup;
 			children = (
+				BB761FFB1B45D31400425283 /* Maps */,
 				BB761FD71B45D12400425283 /* AppDelegate.swift */,
 				BB761FD91B45D12400425283 /* GameScene.sks */,
 				BB761FDB1B45D12400425283 /* GameScene.swift */,
+				BB97DF3E1B59D40E00B1C55E /* XXTileMap.swift */,
 				BB761FDD1B45D12400425283 /* GameViewController.swift */,
+				BB1813E71B5C1ACD008691EE /* SwiftyJSON.swift */,
 				BB761FDF1B45D12400425283 /* Main.storyboard */,
 				BB761FE21B45D12400425283 /* Images.xcassets */,
 				BB761FE41B45D12400425283 /* LaunchScreen.xib */,
@@ -116,6 +135,25 @@
 				BB761FF01B45D12500425283 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB761FFB1B45D31400425283 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BB97DF401B59D4EC00B1C55E /* map.json */,
+				BB761FFC1B45D31400425283 /* tilemap.tmx */,
+				BB761FFD1B45D31400425283 /* tmx-bg-tiles.atlasc */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		BB761FFD1B45D31400425283 /* tmx-bg-tiles.atlasc */ = {
+			isa = PBXGroup;
+			children = (
+				BB761FFE1B45D31400425283 /* tmx-bg-tiles.1.png */,
+				BB761FFF1B45D31400425283 /* tmx-bg-tiles.plist */,
+			);
+			path = "tmx-bg-tiles.atlasc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +237,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB761FE61B45D12400425283 /* LaunchScreen.xib in Resources */,
+				BB7620021B45D31400425283 /* tmx-bg-tiles.plist in Resources */,
 				BB761FE31B45D12400425283 /* Images.xcassets in Resources */,
 				BB761FDA1B45D12400425283 /* GameScene.sks in Resources */,
+				BB97DF411B59D4EC00B1C55E /* map.json in Resources */,
+				BB7620001B45D31400425283 /* tilemap.tmx in Resources */,
 				BB761FE11B45D12400425283 /* Main.storyboard in Resources */,
+				BB7620011B45D31400425283 /* tmx-bg-tiles.1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB97DF3F1B59D40E00B1C55E /* XXTileMap.swift in Sources */,
 				BB761FDC1B45D12400425283 /* GameScene.swift in Sources */,
+				BB1813E81B5C1ACD008691EE /* SwiftyJSON.swift in Sources */,
 				BB761FDE1B45D12400425283 /* GameViewController.swift in Sources */,
 				BB761FD81B45D12400425283 /* AppDelegate.swift in Sources */,
 			);
@@ -350,9 +394,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TileMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -360,9 +408,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TileMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -419,6 +470,7 @@
 				BB761FF71B45D12500425283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB761FF81B45D12500425283 /* Build configuration list for PBXNativeTarget "TileMapTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +479,7 @@
 				BB761FFA1B45D12500425283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

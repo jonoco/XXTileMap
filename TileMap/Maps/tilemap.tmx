@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="25" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="bg-tiles" tilewidth="32" tileheight="32" spacing="2" margin="1">
+  <image source="tmx-bg-tiles.atlasc/tmx-bg-tiles.1.png" width="374" height="34"/>
+  <tile id="5">
+   <properties>
+    <property name="tree" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="wall" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJydlkFyxSAMQx1YkX//+3YTZvTVJ4d24UmAxJJlY1hVtcAusWFjnU9rS57kdwQs8j3AOn7zscRzrym+f0PjxJPeZ33zmDY/KsfeYZx+v57nBNv+VvUxfh77D48F8bsmKf4bbPPocpTwPW7Sf0i824jHW16G+fZanPKdx6+4zsF5vdWJ53/IWPO//yNMwtVckAbqe9lc2vOks2OTLp3+NKc8CJ/i7DjdlXUgTVIPI6xUg67FSbwnRjrf9c2fdEm6u9Zvz6v6HCsH16XLP+WdsEed1VnqS3+pwVSHHt8HMJRniqXrCyd8iMNpPSU+lJOO+6jfe6zzt9+7M03vIdQDvUele0vK9f5399gJ685xf5/iUx9v2io+3Tc6fD0fJvhNeyat071jGj7dUy77v9tTSX8/99Snn7t0TyDOqaf6nGpL2rtmXi+Ut7feRUY1Rbx9T7g2vk61mMaE4fvpB6G/C1U=
+  </data>
+ </layer>
+ <layer name="Breakables" width="32" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM2IhQMxgApe4kRf9QCRNCgBJ/DJcwoCYgN0yoGZaj8UI/MFTCmp7uJGQXNnl8eqjhdnrH02BLF+juobb7qFXuDbZwG4xgNIwGD6B3+4kNjR5sgFR3AQAPrACp
+  </data>
+ </layer>
+ <objectgroup name="Bugs" width="32" height="25">
+  <object name="bug" x="589" y="221"/>
+  <object name="bug" x="748" y="335"/>
+  <object name="bug" x="405" y="564"/>
+  <object name="bug" x="739" y="648"/>
+  <object name="bug" x="123" y="653"/>
+  <object name="bug" x="219" y="700"/>
+  <object name="bug" x="160" y="720"/>
+  <object name="bug" x="316" y="719"/>
+  <object name="bug" x="75" y="511"/>
+  <object name="bug" x="72" y="136"/>
+  <object name="bug" x="207" y="85"/>
+  <object name="bug" x="357" y="73"/>
+  <object name="bug" x="848" y="719"/>
+  <object name="bug" x="772" y="716"/>
+  <object name="bug" x="831" y="671"/>
+  <object name="bug" x="783" y="631"/>
+  <object name="bug" x="709" y="703"/>
+  <object name="bug" x="705" y="599"/>
+  <object name="bug" x="868" y="619"/>
+  <object name="bug" x="909" y="735"/>
+  <object name="bug" x="728" y="771"/>
+  <object name="bug" x="792" y="128"/>
+  <object name="bug" x="812" y="172"/>
+  <object name="bug" x="907" y="115"/>
+  <object name="bug" x="941" y="199"/>
+  <object name="bug" x="905" y="212"/>
+  <object name="bug" x="800" y="201"/>
+  <object name="bug" x="839" y="135"/>
+  <object name="bug" x="863" y="181"/>
+  <object name="bug" x="923" y="64"/>
+  <object name="bug" x="803" y="65"/>
+  <object name="bug" x="499" y="653" width="21" height="21"/>
+  <object name="bug" x="625" y="440"/>
+  <object name="bug" x="580" y="641"/>
+  <object name="bug" x="757" y="488"/>
+  <object name="player" x="485" y="225" width="23" height="21">
+   <ellipse/>
+  </object>
+  <object name="fireBug" x="384" y="128"/>
+ </objectgroup>
+ <objectgroup name="CollisionAreas" width="32" height="25">
+  <object name="water" x="96" y="192" width="288" height="192"/>
+  <object name="water" x="160" y="160" width="192" height="32"/>
+  <object name="water" x="224" y="128" width="64" height="32"/>
+  <object name="water" x="64" y="256" width="32" height="160"/>
+  <object name="water" x="32" y="288" width="32" height="96"/>
+  <object name="water" x="96" y="384" width="160" height="96"/>
+  <object name="water" x="128" y="480" width="192" height="32"/>
+  <object name="water" x="160" y="512" width="160" height="32"/>
+  <object name="water" x="224" y="544" width="64" height="32"/>
+  <object name="water" x="256" y="448" width="32" height="32"/>
+  <object name="water" x="384" y="224" width="64" height="256"/>
+  <object name="water" x="448" y="320" width="64" height="160"/>
+  <object name="water" x="448" y="288" width="32" height="32"/>
+  <object name="water" x="352" y="384" width="32" height="32"/>
+  <object name="water" x="416" y="480" width="64" height="32"/>
+  <object name="water" x="512" y="416" width="32" height="64"/>
+ </objectgroup>
+</map>
